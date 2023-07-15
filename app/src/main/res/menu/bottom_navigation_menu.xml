@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/Links_bottom_tab"
+        android:icon="@drawable/ic_link"
+        android:title="Links"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/Courses_bottom_tab"
+        android:icon="@drawable/ic_magazine"
+        android:title="Courses"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/add_place_holder"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/Campaign_bottom_tab"
+        android:title="Campaign"
+        android:icon="@drawable/ic_fast_forward"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/Profile_bottom_tab"
+        android:title="Profile"
+        android:icon="@drawable/ic_user"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+</menu>

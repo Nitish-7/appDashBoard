@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="dash_board_parent_style">
+        <item name="android:background">@color/transparent</item>
+        <item name="fontFamily">@font/figtree_semi_bold</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">
+            @dimen/margin_horizontal_dashboard
+        </item>
+    </style>
+
+    <style name="parent_font_style">
+        <item name="android:background">@color/transparent</item>
+        <item name="fontFamily">@font/figtree_semi_bold</item>
+    </style>
+
+
+    <style name="ll_tab_bar_style">
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">@dimen/margin_horizontal_dashboard</item>
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+
+    <style name="tv_tab_bar_style">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="iv_tab_bar_style">
+        <item name="android:layout_gravity">end</item>
+        <item name="android:background">@drawable/bg_round</item>
+        <item name="android:backgroundTint">@color/white_transparent</item>
+    </style>
+
+    <style name="sv_style">
+        <item name="android:background">@drawable/bg_round_2</item>
+        <item name="android:scrollIndicators" tools:targetApi="m">none</item>
+    </style>
+
+    <style name="tv_greeting_style" parent="dash_board_parent_style">
+        <item name="fontFamily">@font/figtree_regular</item>
+        <item name="android:textColor">@color/off_black_1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop" tools:targetApi="o">32dp</item>
+    </style>
+
+    <style name="tv_user_name_style" parent="dash_board_parent_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginTop" tools:targetApi="o">4dp</item>
+        <item name="android:layout_marginEnd" tools:targetApi="o">8dp</item>
+    </style>
+
+    <style name="tv_chart_head_style">
+        <item name="android:textColor">@color/off_black_1</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="tv_chart_date_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/bg_round_stroke</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:paddingStart">6dp</item>
+        <item name="android:paddingEnd">6dp</item>
+    </style>
+
+    <style name="chart_container_style" parent="dash_board_parent_style">
+        <item name="android:background">@drawable/bg_round_stroke</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+    <style name="bt_view_analytics_style" parent="dash_board_parent_style">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:paddingVertical" tools:targetApi="o">8dp</item>
+        <item name="android:background">@drawable/bg_round_stroke</item>
+    </style>
+
+    <style name="tv_bt_view_analytics">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginStart">12dp</item>
+    </style>
+
+    <style name="link_list_header_style" parent="dash_board_parent_style">
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+
+    <style name="unselected_bt_link">
+        <item name="android:padding">6dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/off_black_1</item>
+    </style>
+
+    <style name="selected_bt_link">
+        <item name="android:padding">6dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/bg_bt_circular_selected</item>
+    </style>
+
+    <style name="bt_search_link_style">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:background">@drawable/bg_round_stroke</item>
+    </style>
+
+    <style name="bt_contact_style" parent="dash_board_parent_style">
+
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:paddingVertical" tools:targetApi="o">20dp</item>
+        <item name="android:background">@drawable/bg_round_stroke</item>
+        <item name="android:backgroundTint">@color/light_green</item>
+    </style>
+
+    <style name="bt_faq_style" parent="dash_board_parent_style">
+        <item name="android:gravity">start</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:layout_marginBottom">80dp</item>
+        <item name="android:paddingVertical" tools:targetApi="o">20dp</item>
+        <item name="android:background">@drawable/bg_round_stroke</item>
+        <item name="android:backgroundTint">@color/light_blue</item>
+    </style>
+
+    <style name="link_item_black_style">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="link_item_offblack_style" parent="parent_font_style">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/off_black_1</item>
+    </style>
+
+    <style name="link_item_blue_style" parent="parent_font_style">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/app_theme_color</item>
+    </style>
+
+    <style name="link_item_ticket_style" parent="parent_font_style">
+        <item name="android:padding">12dp</item>
+    <item name="android:background">@drawable/bg_strock_dashes</item>
+    </style>
+
+</resources>

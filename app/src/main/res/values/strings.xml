@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">openInAppDashboard</string>
+    <string name="tv_tab_bar_head">Dashboard</string>
+
+    <string name="base_url_api">https://api.inopenapp.com/api/v1/dashboardNew</string>
+    <string name="access_token">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjU5MjcsImlhdCI6MTY3NDU1MDQ1MH0.dCkW0ox8tbjJA2GgUx2UEwNlbTZ7Rr38PVFJevYcXFI</string>
+    <string name="str_chart_head">Overview</string>
+    <string name="str_view_analytics">View Analytics</string>
+    <string name="str_top_links">Top Links</string>
+    <string name="str_recent_links">Recent Links</string>
+    <string name="str_view_all_links">View all Links</string>
+    <string name="str_faq">Frequently Asked Questions</string>
+    <string name="str_contact">Talk with us</string>
+</resources>

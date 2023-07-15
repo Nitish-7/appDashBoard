@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_horizontal_dashboard">16dp</dimen>
+    <dimen name="height_iv_tab_bar">40dp</dimen>
+    <dimen name="height_iv_greeting">28dp</dimen>
+</resources>
